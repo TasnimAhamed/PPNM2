@@ -1,0 +1,140 @@
+/* Mobile Devices */
+
+@media (min-width:320px) and (max-width:575px){
+    .main__wrapper{
+        padding: 12px 8px;
+    }
+    .main__content {
+        padding: 16px;
+        border-radius: 10px;
+    }
+    .header__area{
+        padding: 16px 0 0 0;
+    }
+    .banner__area{
+        padding-top: 64px;
+    }
+    .banner__content h2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .banner__content p{
+        font-size:14px;
+        line-height:24px;
+        max-width: 100%;
+    }
+    .search__wrapper input{
+        font-size:14px;
+        padding: 13px 20px;
+    }
+    .search__wrapper button{
+        padding:12px 20px;
+    }
+    .search__wrapper button img{
+        width: 22px;
+    }
+
+    .fuel__station-card{
+        padding:16px;
+    }
+    .fuel__station-card .card__image{
+        height:120px;
+    }
+    .fuel__station-card .card__content{
+        height: 80px;
+    }
+    .fuel__station-card .card__content p{
+        font-size:20px;
+    }
+    
+    .footer__content h4 {
+        font-size: 14px;
+    }
+}
+
+
+/* Tablet Devices */
+
+@media (min-width:767px) and (max-width:991px){
+    .main__content {
+        padding: 20px;
+    }
+    .header__area{
+        padding: 12px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:40px;
+        line-height:72px;
+    }
+    .banner__content p{
+        font-size:14px;
+        line-height:28px;
+        max-width: 650px;
+    }
+    .fuel__station-card .card__image{
+        height:160px;
+    }
+    
+}
+
+
+/* Medium Large Devices */
+
+@media (min-width:992px) and (max-width:1199px){
+    .main__content {
+        padding: 40px;
+    }
+    .header__area{
+        padding: 20px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:44px;
+        line-height:72px;
+    }
+    .banner__content p{
+        font-size:16px;
+        max-width: 742px;
+    }
+    
+}
+
+
+/* Large Devices */
+
+@media (min-width:1200px) and (max-width:1399px){
+    .main__content {
+        padding: 40px;
+    }
+    .header__area{
+        padding: 20px;
+    }
+    .banner__area{
+        padding-top: 96px;
+    }
+    .banner__content h2 {
+        font-size:52px;
+        line-height:80px;
+    }
+    .banner__content p{
+        font-size:18px;
+        max-width: 836px;
+    }
+    .fuel__station-card .card__image{
+        height:160px;
+    }
+    
+}
+
+
+/* Extra Large Devices */
+
+@media (min-width:1400px) and (max-width:1600px){
+
+
+}

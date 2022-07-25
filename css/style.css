@@ -207,6 +207,19 @@ p{
     padding-top: 48px;
     padding-bottom: 72px;
 }
+.effient__fuel .row{
+    position: relative;
+}
+.effient__fuel .row::after{
+    content: "";
+    width: 70%;
+    height: 1px;
+    background: #5374FF;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .effient__fuel h1{
     font-family: 'Poppins',sans-serif;
     font-style: normal;
@@ -229,6 +242,12 @@ p{
     line-height: 26px;
     color: #000000;
     margin-bottom: 32px;
+    position: relative;
+    z-index:20;
+}
+.fuel__efficient-content h2 span{
+    background: #ffffff;
+    padding:6px 12px;
 }
 .fuel__efficient-content p{
     font-family: 'Inter',sans-serif;

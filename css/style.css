@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@400;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Inter:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 /*
 font-family: 'Poppins', sans-serif; 
 font-family: 'Amiko', sans-serif;
@@ -115,6 +115,10 @@ p{
 }
 
 /* Card Section Start */
+.card__section-start{
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
 .fuel__station-card{
     background: #FFFFFF;
     box-shadow: 0px 5px 20px 20px rgb(0 0 0 / 1%);
@@ -147,7 +151,97 @@ p{
     line-height: 34px;
     text-align: center;
     color: #313237;
+    padding: 32px 0;
 }
+
+/*Card Section End*/
+
+
+
+/* Inner Page banner CSS */
+.inner--page .banner__content p{
+    max-width: 991px;
+}
+
+/* Body Content */
+.body__content-area{
+    max-width:1085px;
+    margin:0 auto;
+    padding: 60px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.body__content{
+    border-top: 1px dashed #718797;
+    border-bottom: 1px dashed #718797;
+}
+.body__content p{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #313237;
+    padding: 32px 0;
+}
+.body__content h2{
+    font-family: 'Amiko', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #313237;
+    text-align: center;
+    padding: 16px 0;
+    margin-bottom: 0;
+}
+/* Body Content */
+
+/* How to use fuel efficiently */
+
+.effient__fuel{
+    max-width:1150px;
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 72px;
+}
+.effient__fuel h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 48px;
+}
+.fuel__efficient-content {
+    text-align: center;
+    padding: 0 48px;
+}
+.fuel__efficient-content h2{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.fuel__efficient-content p{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #313237;
+}
+/* How to use fuel efficiently */
+
+/* Inner Page banner CSS */
 
 /* Footer Content */
 .footer__area {
